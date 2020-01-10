@@ -1,0 +1,7 @@
+[15-Nov-2019 14:15:15 UTC] PHP Fatal error:  Call to a member function can_login() on null in /home/juaj8ef46863/public_html/clients/venture/application/controllers/Real.php on line 27
+[15-Nov-2019 14:16:10 UTC] PHP Fatal error:  Call to a member function can_login() on null in /home/juaj8ef46863/public_html/clients/venture/application/controllers/Real.php on line 27
+[15-Nov-2019 14:16:48 UTC] PHP Fatal error:  Call to a member function can_login() on null in /home/juaj8ef46863/public_html/clients/venture/application/controllers/Real.php on line 27
+[15-Nov-2019 14:19:13 UTC] PHP Fatal error:  Call to a member function can_login() on null in /home/juaj8ef46863/public_html/clients/venture/application/controllers/Real.php on line 27
+[15-Nov-2019 14:27:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/juaj8ef46863/public_html/clients/venture/application/views/admin/view_emp.php on line 2
+[15-Nov-2019 14:27:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/juaj8ef46863/public_html/clients/venture/application/views/admin/view_emp.php on line 2
+[15-Nov-2019 14:28:00 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/juaj8ef46863/public_html/clients/venture/application/views/admin/view_emp.php on line 2

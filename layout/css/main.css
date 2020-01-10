@@ -1,0 +1,193 @@
+
+
+
+
+
+.yellow{background-color: rgb(255, 254, 0) !important}
+.blue{background-color: #add8e6 !important;}
+.red{background-color: #ff0000 !important;}
+.green{background-color: #00ff00 !important;}
+
+img{max-width: 1385px;;}
+.first_list .blog{background-color: #fff; height: 91px;left: 296px;width: 195px;position: absolute;border: 1px solid #000; top: 55px; }
+
+.first_list .first_blog{height: 105px;}
+.first_list .blog1{top: 159px;}
+.first_list .blog2{top: 249px;height: 92px;}
+.first_list .blog3{top: 340px;/* height: 91px; */}
+.first_list .blog4{top: 430px;}
+.first_list .blog5{top: 520px;height: 92px;}
+.first_list .blog6{top: 611px;height: 102px;}
+
+.first_list .blog_width{width: 192px;left: 298px;}
+.first_list .blog7{top: 786px;height: 91px;}
+.first_list .blog8{top: 876px;}
+.first_list .blog9{top: 966px;}
+.first_list .blog_width_higher{width: 189px;left: 301px;}
+.first_list .blog10{top: 1056px;}
+.first_list .blog11{top: 1146px;}
+.first_list .blog12{top: 1236px;}
+.first_list .blog13{top: 1326px;}
+.first_list .blog14{top: 1416px;}
+.first_list .blog15{top: 1506px;}
+.first_list .blog16{top: 1596px;}
+.first_list .blog17{top: 1686px;}
+.first_list .blog18{top: 1776px;}
+.first_list .blog19{top: 1866px;width: 186px;left: 303px;}
+.first_list .blog20{top: 1955px;width: 186px;left: 303px;}
+.first_list .blog21{top: 2045px;width: 186px;left: 303px;}
+.first_list .blog22{top: 2135px;width: 185px;left: 304px;}
+.first_list .blog23{top: 2225px;width: 185px;left: 304px;}
+.first_list .blog24{top: 2315px;width: 185px;left: 304px;}
+.first_list .blog25{top: 2405px;width: 184px;left: 305px;height: 183px;}
+
+.first_list .blog26{top: 2413px;width: 181px;left: 562px;height: 175px;}
+.first_list .blog27{top: 2323px;width: 178px;left: 562px;}
+.first_list .blog28{top: 2233px;width: 176px;left: 562px;}
+.first_list .blog29{top: 2143px;width: 174px;left: 562px;}
+.first_list .blog30{top: 2052px;width: 172px;left: 562px;}
+.first_list .blog31{top: 1961px;width: 170px;left: 562px;}
+.first_list .blog32{top: 1871px;width: 168px;left: 562px;}
+.first_list .blog33{top: 1781px;width: 166px;left: 562px;}
+.first_list .blog34{top: 1708px; height: 74px; width: 164px;left: 562px;}
+.first_list .blog35{top: 1638px; height: 71px; width: 162px;left: 562px;}
+
+.secound_list .blog{background-color: #fff;height: 74px;left: 563px;width: 108px;position: absolute;border: 1px solid #000;top: 55px;}
+.secound_list .blog_first{ height: 79px;}
+.secound_list .blog1{top: 133px;}
+.secound_list .blog2{top: 206px;}
+.secound_list .blog3{top: 278px;}
+.secound_list .blog4{top: 350px;}
+.secound_list .blog5{top: 423px;}
+.secound_list .blog6{top: 495px;}
+.secound_list .blog7{top: 567px;width: 109px;left: 562px;}
+.secound_list .blog8{top: 640px; height: 72px;width: 109px;left: 562px;}
+
+.secound_list .left_side{left: 670px;width: 109px;height: 75px;}
+.secound_list .blog9{top: 640px;height: 72px;}
+.secound_list .blog10{top: 566px;}
+.secound_list .blog11{top: 494px;height: 74px;}
+.secound_list .blog12{top: 422px;height: 74px;}
+.secound_list .blog13{top: 349px;}
+.secound_list .blog14{top: 276px;}
+.secound_list .blog15{top: 204px;}
+.secound_list .blog16{top: 132px;}
+.secound_list .blog17{top: 54px;height: 80px;}
+
+
+.third_list .blog{background-color: #fff;height: 66px;left: 834px;width: 90px;position: absolute;border: 1px solid #000;top: 55px;}
+.third_list .blog_first{height: 73px;}
+.third_list .blog1{top: 127px;}
+.third_list .blog2{top: 192px;}
+.third_list .blog3{top: 257px;}
+.third_list .blog4{top: 322px;}
+.third_list .blog5{top: 387px;}
+.third_list .blog6{top: 452px;}
+.third_list .blog7{top: 517px;}
+.third_list .blog8{top: 582px;}
+.third_list .blog9{top: 647px;}
+
+.third_list .left_side{left: 923px;width: 91px;}
+.third_list .blog10{top: 647px;}
+.third_list .blog11{top: 582px;}
+.third_list .blog12{top: 517px;}
+.third_list .blog13{top: 452px;}
+.third_list .blog14{top: 387px;}
+.third_list .blog15{top: 322px;}
+.third_list .blog16{top: 257px;}
+.third_list .blog17{top: 192px;}
+.third_list .blog18{top: 54px;height: 139px;}
+
+
+.fourth_list .blog{padding: 21px 0;background-color: #fff;height: 87px;left: 1067px;width: 162px;position: absolute;border: 1px solid #000;top: 537px;}
+.fourth_list .blog2{top: 623px;
+    height: 89px;}
+
+
+.number{border: 1px solid #000;height: 43px; border-radius: 50%;
+    width: 43px;}
+.number_border{border-bottom: 1px solid #000;}
+.blog_padding{padding: 23px 0;}
+.number p{font-size: 13px; font-weight:700;}
+.blog_padding_first{padding: 30px 0;}
+.blog_padding_bot{padding: 28px 0;}
+.blog_padding_high{padding: 69px 0;}
+.blog_padding_low{padding: 14px 0;}
+
+.secount_sec_pad{padding: 14px 0;}
+.secount_sec_pad-first{padding: 17px 0;}
+
+.third_sec_pad-first{padding: 14px 0;}
+.third_sec_pad{padding: 10px 0;}
+.third_sec_pad_high{padding: 47px 0;}
+
+
+
+
+
+
+
+
+
+
+
+.clr{background-color: #8fdbcf;}
+.logo{width: 250px;height: 78px;}
+.exit{height: 25px; width: 25px;}
+
+.details h6{font-size: 18px; font-weight: 400;}
+.details span{font-weight: 300;}
+
+.sclect_option .form-control{background: #b3dcd6;width: 100%;height: 30px;border-radius: 3px;border: 1px solid #808080;padding: 3px 15px;font-size: 14px;color: #000;font-weight: 500;}
+.sclect_option label{font-size: 18px; font-weight: bold; color: #000;}
+.vacant{height: 50px !important;}
+
+.vacant::-webkit-input-placeholder { font-size: 13px;color: #000;}
+.vacant::-moz-placeholder { font-size: 13px;color: #000;}
+.vacant:-ms-input-placeholder {font-size: 13px;color: #000;}
+.vacant:-moz-placeholder { font-size: 13px;color: #000;}
+.vacnt_btns button{border: none;border-radius: 3px;font-size: 15px;font-weight: 600;background: #293c4d;color: #ffffff;padding: 5px 15px;}
+
+.dys{font-size: 16px !important;font-weight: 500 !important; margin-bottom: 0px;}
+.box-border{border: 1px solid #a2a1a1;}
+.feet{font-size: 13px;font-weight: 500 !important;color: #699c7d;}
+.red_bg{background-color: #ff0000;
+    padding: 2px 10px;
+    color: #fff;}
+.plot{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ff0000;
+}
+#vacent{display: none;}
+#booked{display: none;}
+#reserved{display: none;}
+#registered{display: none;}
+
+
+.box{border: 1px solid #aeabab;padding: 8px 15px;margin-bottom: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

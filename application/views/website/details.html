@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Details</title>
+  </head>
+  <body>
+    <div class="body_clr">
+        <div class="row m-0">
+            <div class="col-md-5 mx-auto box-border">
+                <div class=" d-flex mt-2">
+                   <img class="logo text-center mx-auto mr-auto img-fluid" src="images/logo.png">
+                    <a href="javascript:void(0)"><img class="exit " src="images/exit.png"></a>
+                </div>
+                <div class="row details mt-5">
+                    <div class="col-md-6">
+                        <h6>Plot No</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> 1</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Area <span class="feet">in Sq.yards</span></h6>    
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> 267</h6>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Dimensions <span class="feet">in Feet</span></h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> 40x60</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Customer name</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> Rajesh v</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Contact no</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Details</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> PB No 6359 Document NO 3127/2018 DATED 28.02.2018</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>User Id</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> Abhi</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Updated On</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6> 29-03-2018 01:46:23 PM</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>No.of Days</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span> 
+                            <h6>11</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Current Status</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                            <span class="mr-2">:</span>
+                            <h6 class="red_bg"> Registered</h6>
+                        </div>
+                    </div>
+                </div>
+                <p class="plot mb-0">This Plot is Registered by Abhi</p>
+                <form class="sclect_option">
+                    <div class="form-group ">
+                      <label for="exampleFormControlSelect1">Change Details</label>
+                      <select class="form-control change-details"  id="exampleFormControlSelect1">
+                        <option>------Select-------</option>
+                        <option value="vacent">Vacant</option>
+                        <option value="blocked">Blocked</option>
+                        <option value="reserv">Reserved</option>
+                        <option value="regester">registered</option>
+                      </select>
+                    </div>
+                  </form>
+
+                  <!-- vacent form -->
+                  <form id="vacent">
+                    <div class="form-group sclect_option">
+                        <textarea class="form-control vacant" id="exampleFormControlTextarea1" placeholder="PB No 6359 Document NO 3127/2018 DATED 28.02.2018" rows="3"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 vacnt_btns">
+                        <button type="submit" class="mr-2">Update Changes</button>
+                        <button type="submit">Exit</button>
+                    </div>
+                  </form>
+
+                  <!-- Booked form -->
+                  <form id="booked">
+                    <div class="form-group sclect_option">
+                        <label class="dys" for="exampleFormControlSelect1">No of Days</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>------Select-------</option>
+                            <option>Vacant</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group sclect_option mb-0">
+                                <label class="dys" for="exampleInputEmail1">Customer Name</label>
+                                <input type="text" class="form-control" placeholder="Rajesh v">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group sclect_option mb-0">
+                                <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                <input type="text" class="form-control" placeholder="Enter customer number">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group sclect_option">
+                                <label class="dys" for="exampleInputEmail1">Marketer Name</label>
+                                <input type="text" class="form-control" placeholder="Ch Venkateswarlu">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group sclect_option">
+                                <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                <input type="text" class="form-control" placeholder="Enter marketer number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group sclect_option">
+                        <textarea class="form-control vacant" id="exampleFormControlTextarea1" placeholder="PB No 6359 Document NO 3127/2018 DATED 28.02.2018" rows="3"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 vacnt_btns">
+                        <button type="submit" class="mr-2">Update Changes</button>
+                        <button type="submit">Exit</button>
+                    </div>
+                  </form>
+
+                  <!-- Reserved form -->
+                  <form id="reserved">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Customer Name</label>
+                                    <input type="text" class="form-control" placeholder="Rajesh v">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                    <input type="text" class="form-control" placeholder="Enter customer number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Marketer Name</label>
+                                    <input type="text" class="form-control" placeholder="Ch Venkateswarlu">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                    <input type="text" class="form-control" placeholder="Enter marketer number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group sclect_option">
+                            <label class="dys" for="exampleInputEmail1">PB No</label>
+                            <input type="text" class="form-control" placeholder="6359">
+                        </div>
+                        <div class="form-group sclect_option">
+                            <textarea class="form-control vacant" id="exampleFormControlTextarea1" placeholder="PB No 6359 Document NO 3127/2018 DATED 28.02.2018" rows="3"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center mb-2 vacnt_btns">
+                            <button type="submit" class="mr-2">Update Changes</button>
+                            <button type="submit">Exit</button>
+                        </div>
+                      </form>
+
+                      <!-- Registered form -->
+                    <form id="registered">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Customer Name</label>
+                                    <input type="text" class="form-control" placeholder="Rajesh v">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                    <input type="text" class="form-control" placeholder="Enter customer number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Marketer Name</label>
+                                    <input type="text" class="form-control" placeholder="Ch Venkateswarlu">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group sclect_option mb-0">
+                                    <label class="dys" for="exampleInputEmail1">Contact no</label>
+                                    <input type="text" class="form-control" placeholder="Enter marketer number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group sclect_option mb-0">
+                            <label class="dys" for="exampleInputEmail1">PB No</label>
+                            <input type="text" class="form-control" placeholder="6359">
+                        </div>
+                        <div class="form-group sclect_option ">
+                            <label class="dys" for="exampleInputEmail1">Document No</label>
+                            <input type="text" class="form-control" placeholder="Enter Document number">
+                        </div>
+                        <div class="form-group sclect_option">
+                            <textarea class="form-control vacant" id="exampleFormControlTextarea1" placeholder="PB No 6359 Document NO 3127/2018 DATED 28.02.2018" rows="3"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center mb-2 vacnt_btns">
+                            <button type="submit" class="mr-2">Update Changes</button>
+                            <button type="submit">Exit</button>
+                        </div>
+                      </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+       $(document).ready(function(){
+            $(".change-details").on('change', function() {
+               var value=$(this).val();
+                if(value=="vacent"){
+                    $("#booked").hide();
+                    $("#reserved").hide();
+                    $("#registered").hide();
+                    $("#vacent").show();
+                }
+                else if(value=="blocked"){
+                    $("#reserved").hide();
+                    $("#registered").hide();
+                    $("#vacent").hide();
+                    $("#booked").show();
+                }
+                else if(value=="reserv"){
+                    $("#registered").hide();
+                    $("#vacent").hide();
+                    $("#booked").hide();
+                    $("#reserved").show();
+                }               
+                else if(value=="regester"){
+                    $("#vacent").hide();
+                    $("#booked").hide();
+                    $("#reserved").hide();
+                    $("#registered").show();
+                }
+            });
+        });
+       
+    </script>
+  </body>
+</html>
